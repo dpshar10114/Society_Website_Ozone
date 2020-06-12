@@ -43,7 +43,7 @@
         
         
         <main>
-            <form>
+            <form action="" method="POST">
                 <!-- Registration Form in a Table-->
                 <table border="3">
                     <caption>
@@ -121,10 +121,26 @@
                         </td>
                     </tr>
                     <tr>
+                        <th>Academic Year</th>
+                    </tr>
+                    <td>
+                        <select name="Academic Year">
+                            <option selected>Select Academic Year</option>
+                            <option>Final Year</option>
+                            <option>Pre-Final Year</option>
+                            <option>Second Year</option>
+                            <option>First Year</option>
+
+                        </select>
+                    </td>
+                    <tr>
                         <th colspan="2">
                             <input type="submit">
+                            <button type="reset">Reset</button>
                         </th>
+
                     </tr>
+
                 </table>
             </form>
 
