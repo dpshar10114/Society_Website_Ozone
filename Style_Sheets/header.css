@@ -1,3 +1,10 @@
-p{
-    color: darkblue;
+header{
+ 
+    text-align: center;
+    image-rendering: optimizeSpeed;
+    color: white;
+    background-color: black;
+}
+nav{
+    text-align: center;
 }
