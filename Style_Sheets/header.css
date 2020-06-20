@@ -1,10 +1,52 @@
 header{
- 
+    height: 30vh;
+    width: 100vw;
+    font: 100%;
     text-align: center;
-    image-rendering: optimizeSpeed;
     color: white;
     background-color: black;
+    background-attachment: fixed;
+    position: fixed;
 }
+header{
+    height: 30wh;
+    width: 100wh;
+}
+nav{
+    position: fixed;
+   
+}
+#TIT-LOGO{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 0;
+    background-size: contain;
+    background-image: url("file:///C:/Users/Hardik/Documents/GitHub/Society_Website_Ozone/Statics/TIT Formal.png");
+}
+#text{
+    height: 30wh;
+    text-align: center;
+}
+#ozone-logo{
+    height: 10%;
+    width: 10%;
+}
+header div{
+    display: inline-block;
+}
+/*body{
+    
+    background-image: url("file:///C:/Users/Hardik/Documents/GitHub/Society_Website_Ozone/Statics/ozoneblacknew1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+nav,article,main,footer,figure{
+    margin-left: auto;
+}
+
+
 nav{
     text-align: center;
 }
@@ -21,4 +63,9 @@ a:hover{
 }
 a:active{
     color: red;
+}
+p{
+    border-left: 4px solid black;
+    padding: 10px;
+   
 }
