@@ -1,39 +1,26 @@
 header{
-    height: 30vh;
-    width: 100vw;
+    height: auto;
     font: 100%;
     text-align: center;
     color: white;
     background-color: black;
-    background-attachment: fixed;
-    position: fixed;
+    display: flex;
+    flex-direction: row;
+    
 }
 header{
     height: 30wh;
     width: 100wh;
 }
-nav{
-    position: fixed;
+
+header img{
+    height: 15%;
+    width: 15%;
+    flex-grow: 1;
+}
+header #text{
+    flex-grow: 4;
    
-}
-#TIT-LOGO{
-    height: 10%;
-    width: 10%;
-    position: relative;
-    left: 0;
-    background-size: contain;
-    background-image: url("file:///C:/Users/Hardik/Documents/GitHub/Society_Website_Ozone/Statics/TIT Formal.png");
-}
-#text{
-    height: 30wh;
-    text-align: center;
-}
-#ozone-logo{
-    height: 10%;
-    width: 10%;
-}
-header div{
-    display: inline-block;
 }
 /*body{
     
