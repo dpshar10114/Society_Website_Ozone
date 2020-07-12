@@ -1,0 +1,58 @@
+header{
+    height: auto;
+    font: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+header{
+    height: 30wh;
+    width: 100wh;
+}
+
+header img{
+    height: 15%;
+    width: 15%;
+    flex-grow: 1;
+}
+header #text{
+    flex-grow: 4;
+   
+}
+/*body{
+    
+    background-image: url("file:///C:/Users/Hardik/Documents/GitHub/Society_Website_Ozone/Statics/ozoneblacknew1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+nav,article,main,footer,figure{
+    margin-left: auto;
+}
+
+
+nav{
+    text-align: center;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: darkblue;
+}
+a:active{
+    color: red;
+}
+p{
+    border-left: 4px solid black;
+    padding: 10px;
+   
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Webiste Title-->
+        <title>The Ozone Society, TIT&S Bhiwani</title>
+        <!--Logo for title-->
+        <link rel = "icon" href = "../../../Statics/ozoneblacknew1.png" type = "image/x-icon">
+        <link rel = "stylesheet" type = "text/css" href = "../../../Style_Sheets/header.css"> 
+
+        <!--Meta Tags-->
+        <meta name="description" content="User Registration Page of The Ozone Society, Technological Institute of Textile & Sciences (TIT&S) Bhiwani. 
+        Current Post Holders: Hardik Agarwal(Presodent), Mayur Saini(Vice-President), Shashikant Sharma(Technical Head), Anjali Singhania (Creative Head) 
+        Current Mentors: Dr. Nidhi Sharma & Dr. Monika Sharma, Computer Engineering Department TIT&S Bhiwani
+        Technical Society of the institute.
+        Only society with its offcial Website #Being_Technical">
+		<meta name="keywords" content="tit,tit&s,bhiwani,events,freshers,party,farewell,functions,fests,#Being_Technical,beingtechnical,technical,society,tit&s bhiwani, ozone, the ozone society, orators, best, best society, club, students, 
+		campus, student's life, college life, best club at tit&s bhiwani,computer,cs,html,webiste,computer engineering,btech,
+		haryana,Bhiwani-Haryana,vaish college,bps,dps,km">
+        <meta name="author" content="Hardik Agarwal,17CE015">
+       
+
+
+    </head>
+    <body>
+        <header>
+			<img src="../../../Statics/TIT FORMAL.png" alt="TIT LOGO" title="TIT LOGO" height="20%" width="10%">
+			<h1>The Technological Institute of Textile & Sciences,Bhiwani</h1>
+			<h4>Birla Colony, Bhiwani-Haryana(127021)</h4>
+			<h1>The Ozone Society</h1>
+			<img src="../../../Statics/ozone.png" alt="OZONE Logo" title="OZONE Logo" height="15%" width="20%">
+
+		</header>
+        <nav>
+            <h3>
+                <!--User_Reg Page to Home Page-->
+				<a href="../../../home.html" title="Home Page"><b>Home</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg to Institute Site-->
+				<a href="https://titsbhiwani.ac.in/#" target="_blank" title="TIT&S Bhiwani"><b>Institiute Website</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  Page to Events Page-->
+				<a href="../../../Events Page/events_new.html" target="_blank" title="Events of The Ozoe Society"><b>Society Events</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  to Team Page //link pending-->
+				<a title="Team Members"><b>Team Members</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  to Gallery //link pending-->
+				<a title="Gallery"><b>Gallery</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  to About Page //link pending-->
+				<a title="The Ozone Society"><b>About Us</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  to Contact Internal Linking -->
+				<a href="#contact" title="Contact Us"><b>Contact Us</b></a>&nbsp;|&nbsp;
+				
+				<!--User_Reg  to login page //Page Refreshes-->
+				<a href="../../login_main.html" title="Login Page"><b>Login</b></a>
+            </h3>
+			
+        </nav>
+        
+        
+        <main>
+            <form action="" method="POST">
+                <!-- Registration Form in a Table-->
+                <table border="3">
+                    <caption>
+                        <h3>OZONE | User Registration Form</h3>
+                    </caption>
+                    <tr>
+                        <th>
+                            <label for="FName">First Name</label>
+                        </th>
+                        <td>
+                            <input id="FName" type="text" name="FName" placeholder="Enter First Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for = "MName">Middle Name:</label>
+                        </th>
+                        <td>
+                            <input id="MName" type="text" name="MName" placeholder="Enter Middle Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for = "LName">Last Name:</label>
+                        </th>
+                        <td>
+                            <input id="LName" type="text" name="LName" placeholder="Enter Last Name" required>
+                        </td>
+                    </tr>
+                    <!--Radio button for use of last name-->
+                    <tr>
+                        <th>
+                            Do you use last name officially?
+                        </th>
+                        <td>
+                            <input type="radio" name="LUse" value="Yes" checked>Yes
+                            <input type="radio" name="LUse" value="No">No
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Phone Number">Phone Number:</label>
+                        </th>
+                        <td>
+                            <input id="Phone Number" type="number" name="Phone Number" placeholder="Enter Phone Number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Email">Email Address:</label>
+                        </th>
+                        <td>
+                            <input id="Email" type="email" name="Email" placeholder="Enter Valid E-mail Address" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="Gender">Gender:</label>
+                        </th>
+                        <td>
+                            <input type="radio" name="Gender" id="Gender" value="Male" checked>Male
+                            <input type="radio" name="Gender" id="Gender" value="Female">Female
+                            <input type="radio" name="Gender" id="Gender" value="Other">Other
+                        </td>
+                    </tr>
+                    <!-- Check Box for hobbies-->
+                    <tr>
+                        <th>
+                            <label for="Hobby">Choose Hobbies</label>
+                        </th>
+                        <td>
+                            <input type="checkbox" name="Hobby" id="Hobby" value="Travelling">Travelling<br>
+                            <input type="checkbox" name="Hobby" id="Hobby" value="Cooking">Cooking<br>
+                            <input type="checkbox" name="Hobby" id="Hobby" value="Coding">Coding<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Academic Year</th>
+                        <td>
+                            <select name="Academic Year">
+                                <option selected>Select Academic Year</option>
+                                <option>Not Applicable ~ Alumni</option>
+                                <option>Final Year</option>
+                                <option>Pre-Final Year</option>
+                                <option>Second Year</option>
+                                <option>First Year</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Postal Adrress</th>
+                        <td>
+                            <textarea name="Address" row="10" col="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <button type="submit" onclick="location.href='../../../home.html';"><img src="../../../Statics/ozoneblacknew1.png" height="20" width="25">Submit</button>
+                            <button type="reset" onclick="alert('Resst Done')"><img src="../../../Statics/ozoneblacknew1.png" height="20" width="25">Reset</button>
+                        </th>
+
+                    </tr>
+
+                </table>
+            </form>
+
+        </main>
+        
+        
+        
+        <footer>
+			<h3>
+				<a id="contact">Contact Us</a>
+			</h3>
+			<ul>
+				<li title="Phone Number">Phone:&nbsp;&nbsp;(+91)-9690277882</li>
+				<li title="Mail us at">
+					Email:&nbsp;&nbsp;
+					<a href="mailto: society.ozone@gmail.com">
+						society.ozone@gmail.com
+					</a>
+					
+				</li>
+				<li title="Ozone: Open Source Zone">
+					Facebook:&nbsp;&nbsp;
+					<a href= "https://www.facebook.com/society.ozone/" target="_blank">
+						https://www.facebook.com/society.ozone/
+					</a>
+				</li>
+				<li title="@society.ozone">Instagram:&nbsp;&nbsp;
+					<a href="https://www.instagram.com/society.ozone/?hl=bn" target="_blank">
+						https://www.instagram.com/society.ozone/?hl=bn
+					</a>
+				</li>
+				<li title="The Ozone Society, TIT&S Bhiwani">LinkedIn:&nbsp;&nbsp;
+					<a href="https://www.linkedin.com/company/42729169" target="_blank">
+						https://www.linkedin.com/company/42729169
+					</a>
+				</li>
+				<li title="@SocietyOzone">Twitter:&nbsp;&nbsp;
+					<a href="https://twitter.com/SocietyOzone" target="_blanl">
+						https://twitter.com/SocietyOzone
+					</a>
+				</li>
+				<li title="Reach Us">
+					Address:&nbsp;&nbsp; 
+					<a href="https://goo.gl/maps/mNk6Jtq5m7nbP1VM6" target="_blank">
+						The Technological Institute of Textile & Sciences, Birla Colony, Bhiwani-Haryana, 127021
+					</a><br>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.0711107886495!2d76.11676031426413!3d28.806954682917805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391266d7b7cf299d%3A0xf7b0b0a36c61bd1d!2sTechnological%20institute%20of%20textile%20and%20Sciences!5e0!3m2!1sen!2sin!4v1591786385386!5m2!1sen!2sin" width="40%" height="30%" frameborder="1" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</li>
+				<li>
+					<h4>
+						<a href="#">Go Up</a>
+					</h4>
+				</li>
+			</ul>
+			
+		</footer>
+    </body>
+</html>
